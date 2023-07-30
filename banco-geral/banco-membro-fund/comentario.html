@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentario - fundador</title>
+</head>
+<body>
+
+    <h1 class="text-center">Olá, Voce Pode Comentar logo Abaixo</h1>
+    <form method="post" action="submit-form.php" class="form">
+        <input type="text" name="name" placeholder="Digite Seu Nome" required>
+        <input type="date" name="date" placeholder="Data" required>
+      <textarea name="message" placeholder="Comentario" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <style>
+        
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.form input[type="text"],
+.form input[type="date"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+}
+
+.form textarea {
+  height: 100px;
+}
+
+.form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+/* Colocar Algum Texto no centro com a classe abaixo + cor de texto preto */
+.text-center{
+    text-align: center;
+}
+    </style>
+</body>
+</html>

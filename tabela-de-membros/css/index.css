@@ -1,0 +1,59 @@
+/* Define as cores principais */
+:root {
+  --primary-color: #007bff;
+  --danger-color: #dc3545;
+}
+
+/* Define o estilo do cabeçalho */
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Define o estilo do botão Adicionar Membro */
+#btn-add {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* Define o estilo da tabela de membros */
+#table-members {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-members th,
+#table-members td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+#table-members th {
+  font-weight: bold;
+}
+
+#table-members td.actions {
+  text-align: center;
+}
+
+/* Define o estilo dos botões de ação da tabela */
+.btn-edit,
+.btn-delete {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: var(--danger-color);
+  color: #fff;
+  border-color: var(--danger-color);
+}
